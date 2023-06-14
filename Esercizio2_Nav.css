@@ -1,0 +1,90 @@
+html {
+    font-family: sans-serif;
+}
+.nav {
+    background-color: rgb(31, 28, 41);
+}
+
+.ul {
+    display: inline-block;
+    margin: 10px;
+}
+
+.navbar {
+    display: inline-block;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.colored-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.colored-home {
+    color: white;
+    text-decoration: none;
+}
+
+.colored-link {
+    color: rgb(92, 89, 89);
+    text-decoration: none;
+}
+
+.home {
+    display: inline-block;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.link {
+    display: inline-block;
+    margin: 10px;
+}
+
+.dropdown {
+    display: inline-block;
+    margin: 10px;
+}
+
+.no-outline {
+    background-color: rgb(31, 28, 41) ;
+    border: none;
+    color: rgb(92, 89, 89);
+}
+
+.disabled {
+    display: inline-block;
+    margin: 10px;
+    margin-right: 80px;
+}
+
+.color-disabled {
+    color: rgb(92, 89, 89);
+    text-decoration: none;
+}
+
+.search {
+    display: inline-block;
+    margin: 10px;
+}
+
+.border {
+    border-radius: 5px;
+}
+
+
+.button {
+    background-color: rgb(31, 28, 41); 
+    color: black; 
+    border: 3px solid rgb(0, 92, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+.button:hover {
+    background-color: green; 
+    color: white; 
+}
+
