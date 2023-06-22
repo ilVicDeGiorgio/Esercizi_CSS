@@ -1,0 +1,71 @@
+* {
+    font-family: sans-serif;
+    font-size:larger;
+}
+
+#calcolatrice {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: row;
+    grid-template-rows: auto;
+    margin: 30px;
+}
+
+.risultato {
+    grid-column: 1/5;
+    text-align: end;
+    border: transparent;
+    background-color: rgb(71, 71, 71);
+    font-size: larger;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.borderadd, .bordersottr, .bordermolt {
+    border-bottom: 5px solid rgb(92, 91, 91);
+    border-right: 5px solid rgb(92, 91, 91);
+    background-color: rgb(179, 177, 177);
+}
+
+.borderdivis {
+    border-bottom: 5px solid rgb(92, 91, 91);
+    background-color: rgb(179, 177, 177);
+}
+
+.border789, .border456, .border123 {
+    border-bottom: 5px solid rgb(92, 91, 91);
+    border-right: 5px solid rgb(92, 91, 91);
+    background-color: rgb(179, 177, 177);
+}
+
+
+.numero, .punto, .AC, .operazione {
+    text-align: center;
+}
+
+.borderugual {
+    display: grid;
+    align-items: center;
+    grid-row: span 4;
+    background-color: brown;
+    border-bottom-right-radius: 20px;
+}
+
+.uguale {
+    align-self: center;
+    padding-left: 45%;
+}
+
+.borderpunto, .borderac {
+    border-right: 5px solid rgb(92, 91, 91);
+    background-color: rgb(179, 177, 177);
+}
+
+.border0 {
+    border-right: 5px solid rgb(92, 91, 91);
+    background-color: rgb(179, 177, 177);
+    border-bottom-left-radius: 20px;
+}
+
