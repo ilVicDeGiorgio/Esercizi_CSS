@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "colgreen colgreen colgreen colgreen"
+    "colyellow colred colblue colblue"
+    "colorange colorange colblue colblue"
+}
+
+  #green {
+    grid-area: colgreen;
+  }
+  
+  #orange {
+    grid-area: colorange;
+  }
+  
+  #yellow {
+    grid-area: colyellow;
+    
+  }
+  
+  #red {
+    grid-area: colred;
+  }
+  
+  #blue {
+    grid-area: colblue;
+  }
+  
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+
+  
